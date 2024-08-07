@@ -1,8 +1,8 @@
-AWS Cloud Cost Optimization - Identifying Stale Resources
+**AWS Cloud Cost Optimization - Identifying Stale Resources**
 Identifying Stale EBS Snapshots
 In this guide, we’ll set up an AWS Lambda function designed to identify and delete stale Amazon Elastic Block Store (EBS) snapshots. Stale snapshots are those that are no longer associated with any active EC2 instance and contribute to unnecessary storage costs.
 
-Description
+*Description*
 This Lambda function is crafted to optimize cloud storage costs by automating the cleanup of unused EBS snapshots. The function performs the following steps:
 
 Fetch All EBS Snapshots: It retrieves all EBS snapshots owned by the same AWS account ('self').
